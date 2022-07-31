@@ -1,0 +1,135 @@
+img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px 5px 0 0;
+}
+
+.search-form table{
+  width: 50%;
+  margin-left:auto;
+  box-shadow: 2px 2px 3px dimgray;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 5px;
+  background-color: white;
+}
+@media screen and (max-width: 768px) {
+  .search-form table {
+    margin-top: 50px;
+    width: 100%;
+  }
+}
+.search-form td:first-child{
+  border-radius: 5px 0 0 5px;
+}
+.search-form td:last-child,
+.search-form input{
+  border-radius: 0 5px 5px 0;
+}
+.search-form td{
+  vertical-align: middle;
+  height: 45px;
+}
+.search-form td:nth-child(1),
+.search-form td:nth-child(2){
+  width:20%;
+}
+.search-form td:nth-child(3) {
+  width: 8%;
+}
+.search-form input,
+.search-form select,
+.search-form button{
+  box-sizing: border-box;
+  width: 95%;
+  height: 70%;
+  border: none;
+  background-color: white;
+}
+.search-form select
+{
+  padding-left: 10px;
+}
+.search-form td:nth-child(2) select,
+.search-form button{
+  border-left: 1px solid lightgrey;
+}
+.search-form input:focus{
+  outline: none;
+}
+.search-icon{
+  width: 18px;
+  cursor: pointer;
+}
+
+.shop-card-box{
+  margin: 30px auto 30px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+@media screen and (max-width: 768px) {
+  .shop-card-box {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.shop-card{
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 2px 2px 3px dimgray;
+}
+.shop-card-img {
+  width: 100%;
+  height: 60%;
+  text-align: center;
+}
+.shop-card-img img {
+ vertical-align: middle;
+}
+.shop-card-contents{
+  padding: 10px;
+}
+.shop-card-name{ 
+  font-weight: bold;
+  margin-bottom: 10%;
+}
+.shop-card-area{
+  font-size: 12px;
+  margin-bottom: 5%;
+}
+.link-box{
+  display: flex;
+  justify-content: space-between;
+  vertical-align: middle;
+}
+.link-detail{
+  padding: 4px 15px 4px;
+  color:white;
+  font-size: 12px;
+  border-radius:5px;
+  background-color: royalblue;
+  text-align: center;
+  cursor: pointer;
+}
+.link-detail:hover{
+  background-color: cornflowerblue;
+}
+.favo{
+  width: 24px;
+  height: 24px;
+  background-color:#FF5252;
+  clip-path: path("M12 4.419c-2.826-5.695-11.999-4.064-11.999 3.27 0 7.27 9.903 10.938 11.999 15.311 2.096-4.373 12-8.041 12-15.311 0-7.327-9.17-8.972-12-3.27z");
+  transform: scale(1);
+  border: none;
+}
+.unfavo{
+  width: 24px;
+  height: 24px;
+  background-color:darkgrey;
+  clip-path: path("M12 4.419c-2.826-5.695-11.999-4.064-11.999 3.27 0 7.27 9.903 10.938 11.999 15.311 2.096-4.373 12-8.041 12-15.311 0-7.327-9.17-8.972-12-3.27z");
+  transform: scale(1);
+  border: none;
+}
+

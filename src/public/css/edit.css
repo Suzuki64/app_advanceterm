@@ -1,0 +1,123 @@
+img {
+  width: 90%;
+}
+
+.edit-contents {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 768px) {
+  .edit-contents {
+    display: block;
+  }
+}
+.shop-detail-frame {
+  color: white;
+  width: 45%;
+  background-color: royalblue;
+  box-sizing: border-box;
+  padding: 30px;
+  border-radius: 5px;
+}
+@media screen and (max-width: 768px) {
+  .shop-detail-frame {
+    width:100%;
+    margin-bottom: 50px;
+  }
+}
+.shop-detail-ttl {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom:25px;
+}
+.shop-edit-form p {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.shop-edit-form input {
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+.shop-name {
+  width: 40%;
+  height: 24px;
+  border: none;
+}
+
+.shop-edit-form select {
+  height: 24px;
+  margin-right:20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+.shop-edit-form textarea {
+  width: 90%;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.button-box {
+  text-align: center;
+}
+.shop-edit-form button {
+  width: 60px;
+  height: 30px;
+  margin:0 auto 0;
+  color: white;
+  background-color: blue;
+  border: none;
+  border-radius:5px;
+  cursor: pointer;
+}
+.shop-edit-form button:hover{
+  background-color: #2b47e4;
+}
+.shop-tag {
+  display: flex;
+}
+
+
+.reserve-frame {
+  width: 45%;
+  box-sizing: border-box;
+  padding: 0 10px 30px;
+}
+@media screen and (max-width: 768px) {
+  .reserve-frame {
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 0;
+  }
+}
+.reserve-frame-ttl {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 0 30px;
+}
+.reserve-table-box {
+  color: white;
+  box-sizing: border-box;
+  width: 85%;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: royalblue;
+  border-radius: 5px;
+}
+.reserve-table-box input {
+  width: 70%;
+  font-size: 16px;
+  color: white;
+  background-color: royalblue;
+  border: none;
+}
+.reserve-ttl-box {
+  margin-bottom: 20px;
+}
+.reserve-desc-table th {
+  text-align: left;
+}
+.reserve-desc-table td {
+  height: 25px;
+  padding-left: 25px;
+}

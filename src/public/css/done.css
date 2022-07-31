@@ -1,0 +1,36 @@
+.message-box{
+  background-color: white;
+  width: 50%;
+  height: 40%;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  box-shadow: 2px 2px 3px dimgray;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .message-box {
+    width: 90%;
+  }
+}
+.message{
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 15vh;
+}
+.link{
+  font-size: 14px;
+  color: white;
+  padding: 10px;
+  margin-top: 5vh;
+  text-align: center;
+  background-color: royalblue;
+  border-radius: 5px;
+  cursor: pointer;
+  display:inline-block;
+}
+.link:hover{
+  background-color: cornflowerblue;
+}
